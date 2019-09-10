@@ -22,6 +22,7 @@ public class UserController {
     @Autowired
     private UserService2 userService2;
 
+//添加1
     @RequestMapping("/add1")
     public  String add1(){
         User user =new User();
@@ -32,7 +33,7 @@ public class UserController {
         return  "ok1";
 
     }
-
+//添加2
     @RequestMapping("/add2")
     public  String add2(){
         User user =new User();
